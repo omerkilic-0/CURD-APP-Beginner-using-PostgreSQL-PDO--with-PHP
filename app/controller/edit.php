@@ -18,7 +18,7 @@ try {
             $phone = $row['phone'];
             $address = $row['address'];
         } else {
-            echo "Kullanıcı bulunamadı.";
+            echo "User not found.";
             exit;
         }
 
@@ -43,13 +43,13 @@ try {
                     header("Location: index.php");
                     exit;
                 } else {
-                    echo "Güncelleme başarısız oldu.";
+                    echo "Update failed.";
                 }
             }
         }
     } else {
-        echo "Kullanıcı ID'si belirtilmedi.";
+        echo "User ID not specified.";
     }
 } catch (PDOException $e) {
-    echo "Veritabanı bağlantısı başarısız: " . $e->getMessage();
+    echo "Database connection failed: " . $e->getMessage();
 }
