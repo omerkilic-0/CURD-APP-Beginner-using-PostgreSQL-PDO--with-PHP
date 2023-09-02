@@ -31,6 +31,6 @@ Deletes the selected user from the database.
 # License
 This project is licensed under the MIT License.
 
-# images
+# Images
 ![Ekran görüntüsü 2023-09-03 002937](https://github.com/omerkilic-0/CURD-APP-Beginner-using-PostgreSQL-PDO--with-PHP/assets/123635257/eb0abdce-3c2a-46df-958d-95eb4dc200e7)
 ![Ekran görüntüsü 2023-09-03 003002](https://github.com/omerkilic-0/CURD-APP-Beginner-using-PostgreSQL-PDO--with-PHP/assets/123635257/a6c15104-517c-4783-933b-7bc2657a474c)
