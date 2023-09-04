@@ -1,4 +1,4 @@
-<?php include 'partials/header.php';?>
+<?php include 'partials/header.php'; ?>
 
 <div class="container">
     <h1>New Client</h1>
