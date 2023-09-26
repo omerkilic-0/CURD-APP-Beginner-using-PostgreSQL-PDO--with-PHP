@@ -1,10 +1,10 @@
 <?php include 'partials/header.php'; ?>
 
-<div class="container">
-    <h1>New Client</h1>
-    <form action="../controller/newClient.php" method="post">
-        <table class="table">
-            <tbody>
+    <div class="container">
+        <h1>New Client</h1>
+        <form action="../controller/newClient.php" method="post">
+            <table class="table">
+                <tbody>
                 <tr>
                     <th>Name</th>
                     <td>
@@ -40,9 +40,9 @@
                         <input type="submit" value="Cancel" name="cancel" class="btn btn-secondary" style="width: 49%;">
                     </td>
                 </tr>
-            </tbody>
-        </table>
-    </form>
-</div>
+                </tbody>
+            </table>
+        </form>
+    </div>
 
 <?php include 'partials/footer.php'; ?>

@@ -1,13 +1,13 @@
 <?php include 'partials/header.php';
 include '../models/connections.php';
 ?>
-<div class="container">
-    <h1>List Of Client</h1>
-    <a href="newClient.php">
-        <button type="submit" class="btn btn-primary">New Client</button>
-    </a>
-    <table class="table">
-        <thead>
+    <div class="container">
+        <h1>List Of Client</h1>
+        <a href="newClient.php">
+            <button type="submit" class="btn btn-primary">New Client</button>
+        </a>
+        <table class="table">
+            <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -16,8 +16,8 @@ include '../models/connections.php';
                 <th>Address</th>
                 <th>Action</th>
             </tr>
-        </thead>
-        <tbody>
+            </thead>
+            <tbody>
             <?php
             include '../models/connections.php';
             if ($result) {
@@ -42,7 +42,7 @@ include '../models/connections.php';
                 echo "No records found";
             }
             ?>
-        </tbody>
-    </table>
-</div>
+            </tbody>
+        </table>
+    </div>
 <?php include 'partials/footer.php'; ?>

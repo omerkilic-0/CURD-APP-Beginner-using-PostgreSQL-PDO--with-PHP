@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
 
     // Kullanıcıyı veritabanından sil
     $query = "DELETE FROM users WHERE id = :id";
-    $statement = $db->prepare($query); 
+    $statement = $db->prepare($query);
     $statement->bindParam(':id', $id, PDO::PARAM_INT);
 
     if ($statement->execute()) {
